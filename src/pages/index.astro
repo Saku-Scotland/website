@@ -4,8 +4,17 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="Welcome to Saku">
   <main class="grid place-items-center h-screen content-center">
-    <h1 class="text-5xl uppercase tracking-widest font-brand" lang="ja">
-      Saku
+    <h1
+      class="text-5xl uppercase tracking-widest font-brand flex flex-row items-center gap-4"
+      lang="ja"
+    >
+      <img
+        src="/logo.png"
+        height="auto"
+        width="64px"
+        alt=""
+        aria-hidden="true"
+      /><span><span class="text-6xl">S</span>aku</span>
     </h1>
   </main>
 </Layout>
